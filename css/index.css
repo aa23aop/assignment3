@@ -1,0 +1,14 @@
+
+.img-container{
+  display: flex;
+  justify-content: center;
+  padding-right: 10vw;
+}
+img{
+	width: 360px;
+	height: 180px;
+}
+
+.about-text{
+	margin-top: 30px;
+}

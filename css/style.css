@@ -1,0 +1,52 @@
+body{
+  display:flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 15px;
+  height: 100vh;
+  overflow: hidden
+}
+
+ul{
+  display:flex;
+}
+
+li{
+  padding: 0px 5px;
+  color: blue;
+  font-size: 1.2rem;
+  cursor: pointer;
+  
+}
+.nav-index{
+  padding-left: 0px;
+}
+.nav-index, .nav-portfolio{
+  border-right: solid 1px;
+}
+header{
+  margin-bottom: 50px;
+}
+
+
+
+footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 5px;
+  border-top: solid 1px;
+}
+
+h1{
+	font-style: bold;
+	font-size: 3rem;
+}
+h2{
+	font-style: bold;
+	font-size: 2rem;
+}
+
+footer p{
+	font-size: 0.8rem;
+}
