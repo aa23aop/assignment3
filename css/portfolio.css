@@ -31,4 +31,14 @@ img{
 figcaption{
 	font-style: bold;
 	font-size: 1.1rem;
+	cursor: pointer;
+}
+
+figcaption:hover {
+	color: purple;
+	font-size: 1.2rem;
+}
+
+.figure-text{
+	width: 200px;
 }
